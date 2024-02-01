@@ -23,10 +23,12 @@ This will download necessary dependancies / software / GTDB (time consuming).
 
 ### To run meta pipe:
 1. Move raw fastq.gz files into the a_rawReads folder
-     These files should be unconcatenated and in appropriately named folders.
-     e.g. folder names "barcode01, barcode 02 ...", these names will be used for pipeline outputs.
-2. Navigate to the meta_pipe directory
-3. Run:
+
+   These files should be unconcatenated and in appropriately named folders.
+
+   e.g. folder names "barcode01, barcode 02 ...", these names will be used for pipeline outputs.
+3. Navigate to the meta_pipe directory
+4. Run:
 ```bash
 ./run_metapipe.sh
 ```
