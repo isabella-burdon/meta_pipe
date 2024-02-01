@@ -79,7 +79,12 @@ Meta pipe sets up GTDB for use with sourmash.
 1. Concatenates raw fastq.gz files
 2. Using minimap2, depletes reads that map to contaminant genomes (human and phage lambda)
 3. Produces a read metrics report (json or txt format) - number of reads total, number of human/bacterial reads
-   Located in 'b_readMetrics' folder. Path to json or txt file:
+   Located in 'b_readMetrics' folder.
+
+   Example:
+   <img width="581" alt="Screenshot 2024-02-02 at 8 58 21 am" src="https://github.com/isabella-burdon/meta_pipe/assets/133566275/15c40867-9636-4dbd-a7d9-2ee8e5eb25c7">
+
+   Path to read metrics json or txt file:
 ```bash
 b_readMetrics/summary_metrics.josn
 b_readMetrics/summary_compile.txt
