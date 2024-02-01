@@ -1,15 +1,16 @@
 # meta_pipe 🧬
 
+Meta pipe is an easy to use pipeline to quality check long read metagenomic data and generate taxonomic profiles using sourmash.
+
 ```ascii
-╭────────🧬 Long Read Data 🧬─────────
+╭─────── 🧬 Long Read Data 🧬 ────────
 │                 ↓                 
 ╰────────── ⚡️ Meta Pipe ⚡️ ───────────╮
                   ↓                  │
 ──────── ✨✨✨ Results ✨✨✨ ────────╯
 ```
 
-Meta pipe is an easy to use pipeline to quality check long read metagenomic data and generate taxonomic profiles using sourmash.
-- Compatible with MacOS
+- Compatible with MacOS (will run on your laptop!)
 - Requires mamba package manager (see mamba installation below)
 
 ### To install meta pipe:
