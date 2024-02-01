@@ -5,7 +5,7 @@
 │                 ↓                 
 ╰────────── ⚡️ Meta Pipe ⚡️ ───────────╮
                   ↓                  │
-╰─────── ✨✨✨ Results ✨✨✨ ────────╯
+──────── ✨✨✨ Results ✨✨✨ ────────╯
 ```
 
 Meta pipe is an easy to use pipeline to quality check long read metagenomic data and generate taxonomic profiles using sourmash.
