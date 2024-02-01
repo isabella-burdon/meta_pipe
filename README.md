@@ -24,7 +24,7 @@ This will download necessary dependancies / software / GTDB (time consuming).
 ### To run meta pipe:
 1. Move raw fastq.gz files into the a_rawReads folder
 
-   These files should be unconcatenated and in appropriately named folders.
+   These files should be unconcatenated and in appropriately named folders (see diagram below).
 
    e.g. folder names "barcode01, barcode 02 ...", these names will be used for pipeline outputs.
 3. Navigate to the meta_pipe directory
@@ -32,6 +32,27 @@ This will download necessary dependancies / software / GTDB (time consuming).
 ```bash
 ./run_metapipe.sh
 ```
+Schematic diagram of folders for input
+```diagram
+-meta_pipe (root)
+---a_rawReads
+   ---barcode01
+      ---file1_pass.fastq.gz
+      ---file2_pass.fastq.gz
+      ---file3_pass.fastq.gz
+      ... etc
+   ---barcode02
+      ---file1_pass.fastq.gz
+      ---file2_pass.fastq.gz
+      ---file3_pass.fastq.gz
+      ... etc
+   ---barcode03
+      ---file1_pass.fastq.gz
+      ---file2_pass.fastq.gz
+      ---file3_pass.fastq.gz
+      ... etc
+```
+
 ## What is meta pipe doing?
 1. Concatenates raw fastq.gz files
 2. Using minimap2, depletes reads that map to contaminant genomes (human and phage lambda)
