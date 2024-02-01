@@ -94,6 +94,7 @@ b_readMetrics/summary_compile.txt
 * Human (chm13) and phage lambda depleted reads as stored in 'b_readsDepleted'
 
 Git: https://github.com/lh3/minimap2
+
 Paper: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6137996/
 
 #### NanoQC
@@ -117,6 +118,7 @@ Git: https://github.com/wdecoster/nanoQC
 * In Metapipe --headcrop and --tailcrop are used to remove poor quality bases from the start and end of reads.
 
 Git: https://github.com/wdecoster/chopper
+
 Paper: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10196664/
 
 #### Sourmash
@@ -141,6 +143,7 @@ sourmash tax metagenome -g d_tmp/barcode01.gather.k31.gtdb.csv -o d_output/barco
 ```
 
 Git: https://github.com/sourmash-bio/sourmash
+
 Paper: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9749362/
 
 ## Mamba installation
