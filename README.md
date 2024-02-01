@@ -6,7 +6,7 @@ Requires mamba package manager
 ### To install
 git clone https://github.com/isabella-burdon/meta_pipe.git
 
-### To set up:
+### To set up meta pipe:
 1. navigate to the meta_pipe directory
 2. run:
 ```bash
@@ -14,13 +14,15 @@ git clone https://github.com/isabella-burdon/meta_pipe.git
 ```
 This will download necessary dependancies / software / GTDB (time consuming).
 
-### To run:
+### To run meta pipe:
 1. move raw fastq.gz files into the a_rawReads folder
      These files should be unconcatenated and in appropriately named folders.
      e.g. folder names "barcode01, barcode 02 ...", these names will be used for pipeline outputs.
 2. navigate to the meta_pipe directory
-3. run: ./run_metapipe.sh
-
+3. run:
+```bash
+./run_metapipe.sh
+```
 ## What is meta pipe doing?
 1. Concatenates raw fastq.gz files
 2. Using minimap2, depletes reads that map to contaminant genomes (human and phage lambda)
