@@ -12,7 +12,7 @@ git clone https://github.com/isabella-burdon/meta_pipe.git
 ``` link
 https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_009914755.1/
 ```
-Please unzip and store the reference as 'chm13.fasta' in the b_contaminants folder.
+Please unzip and store the reference genome as 'chm13.fasta' in the b_contaminants folder.
 
    This can be dowloaded from ncbi at
 
