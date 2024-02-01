@@ -8,25 +8,25 @@ Requires mamba package manager
 git clone https://github.com/isabella-burdon/meta_pipe.git
 ```
 ### To set up meta pipe:
-1. the human reference genome needs to be downloaded and stored as chm13.fasta in the b_contaminants folder.
+1. The human reference genome needs to be downloaded and stored as chm13.fasta in the b_contaminants folder.
 
-   this can be dowloaded from ncbi at:
+   This can be dowloaded from ncbi at:
 ``` link
 https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_009914755.1/
 ```
- navigate to the meta_pipe directory
-3. run:
+ Navigate to the meta_pipe directory
+3. Run:
 ```bash
 ./setup.sh
 ```
 This will download necessary dependancies / software / GTDB (time consuming).
 
 ### To run meta pipe:
-1. move raw fastq.gz files into the a_rawReads folder
+1. Move raw fastq.gz files into the a_rawReads folder
      These files should be unconcatenated and in appropriately named folders.
      e.g. folder names "barcode01, barcode 02 ...", these names will be used for pipeline outputs.
-2. navigate to the meta_pipe directory
-3. run:
+2. Navigate to the meta_pipe directory
+3. Run:
 ```bash
 ./run_metapipe.sh
 ```
