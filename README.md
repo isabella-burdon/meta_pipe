@@ -141,7 +141,7 @@ Paper: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10196664/
 * Tool to perform taxanomic profiling of shotgun long read metagenomic data
 * In meta pipe the database used is GTDB rs214
 
-Meta pipe uses the following sourmash commands per samples:
+Meta pipe uses the following sourmash commands per sample:
 ```bash
 # -- (1) sketch
 sourmash sketch dna -p k=31,abund c_readsChopped/barcode01.fastq.gz \
