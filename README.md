@@ -32,6 +32,8 @@ This will download necessary dependancies / software / GTDB (time consuming).
 ```bash
 ./run_metapipe.sh
 ```
+5. Wait for RESULTS! 🥳
+
 Schematic diagram of folders for input
 ```diagram
 meta_pipe (root)
