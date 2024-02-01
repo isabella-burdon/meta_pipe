@@ -10,7 +10,7 @@ Meta pipe is an easy to use pipeline to quality check long read metagenomic data
 ──────── ✨✨✨ Results ✨✨✨ ────────╯
 ```
 
-- Compatible with MacOS (will run on your laptop!)
+- Compatible with MacOS (will run on your laptop)
 - Requires mamba package manager (see mamba installation below)
 
 ### To install meta pipe:
