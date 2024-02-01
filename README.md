@@ -87,7 +87,9 @@ Meta pipe sets up GTDB for use with sourmash.
 
    Path to read metrics json or txt file:
 ```bash
-b_readMetrics/summary_metrics.josn
+b_readMetrics/summary_metrics.jsn
+```
+```bash
 b_readMetrics/summary_compile.txt
 ```
 5. Using nanoQC, finds the average length of poor quality bases at the start and end of reads in each sample
