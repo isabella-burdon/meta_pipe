@@ -10,7 +10,7 @@ Meta pipe is an easy to use pipeline to quality check long read metagenomic data
 ──────── ✨✨✨ Results ✨✨✨ ────────╯
 ```
 
-- Compatible with MacOS (will run on your laptop)
+- Compatible with MacOS (will run on your laptop 👩🏽‍💻)
 - Requires mamba package manager (see mamba installation below)
 
 ### To install meta pipe:
@@ -34,7 +34,7 @@ This will download necessary dependancies / software / GTDB (time consuming).
 ### To run meta pipe:
 1. Move raw fastq.gz files into the a_rawReads folder
 
-   These files should be unconcatenated and in appropriately named folders (see diagram below).
+   These files should be unconcatenated and in appropriately named folders (see diagram below 🌱).
 
    e.g. folder names "barcode01, barcode 02 ...", these names will be used for pipeline outputs.
 3. Navigate to the meta_pipe directory
@@ -44,7 +44,7 @@ This will download necessary dependancies / software / GTDB (time consuming).
 ```
 5. Wait for RESULTS! 🥳
 
-Schematic diagram of folders for input
+🌱 Schematic diagram of folders for input
 ```diagram
 meta_pipe (root)
 └── a_rawReads
