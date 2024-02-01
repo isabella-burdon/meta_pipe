@@ -9,6 +9,7 @@ git clone https://github.com/isabella-burdon/meta_pipe.git
 ```
 ### To set up meta pipe:
 1. the human reference genome needs to be downloaded and stored as chm13.fasta in the b_contaminants folder.
+
    this can be dowloaded from ncbi at:
 ``` link
 https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_009914755.1/
