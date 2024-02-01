@@ -1,7 +1,7 @@
 # meta_pipe 🧬
 Meta pipe is a pipeline to quality check long read metagenomic data and generate taxonomic profiles using sourmash.
-- Compatible with MacOS.
-- Requires mamba package manager 
+- Compatible with MacOS
+- Requires mamba package manager (see mamba installation below)
 
 ### To install meta pipe:
 ```bash
@@ -37,3 +37,21 @@ This will download necessary dependancies / software / GTDB (time consuming).
 4. Using nanoQC, finds the average length of poor quality bases at the start and end of reads in each sample
 5. Using chopper, trims the start and the end of all reads in the sample to remove poor quality bases
 6. Using sourmash, creates a taxonomic profile of each of the samples (krona.csv files saved to d_output)
+
+## Mamba installation
+(for mac users)
+1. Open a new terminal window
+3. Run the following in terminal to download miniforge:
+```bash
+wget https://github.com/conda-forge/miniforge?tab=readme-ov-file](https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-MacOSX-x86_64.sh)https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-MacOSX-x86_64.sh
+```
+2. Run the installer bash file:
+```bash
+bash Mambaforge-MacOSX-x86_64.sh
+```
+3. Enter through and accept the license
+4. Say yes to running conda init to initialise miniconda
+5. Run the following:
+```bash
+conda install mamba -n base -c conda-forge
+```
