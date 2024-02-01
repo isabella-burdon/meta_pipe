@@ -96,6 +96,8 @@ b_readMetrics/summary_compile.txt
 ### Taxanomic assignment and profiling of reads
 8. Using sourmash, creates a taxonomic profile of each of the samples (krona.csv files saved to d_output)
 
+### Description of tools used in meta pipe
+
 #### Minimap2
 * Tool to facilitate pairwase alignment of long read metagenomic data.
 * In meta pipe this is used to map the human reference genome and the phage lambda genome to reads in your dataset. These matching reads are then removed from the data.
