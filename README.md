@@ -1,7 +1,7 @@
 # meta_pipe 🧬
 Meta pipe is a pipeline to QC and filter long read metagenomic data and generate taxonomic profiles using sourmash.
-Compatible with MacOS
-Requires mamba package manager 
+- Compatible with MacOS.
+- Requires mamba package manager 
 
 ### To install meta pipe:
 ```bash
