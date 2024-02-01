@@ -96,7 +96,7 @@ Meta pipe sets up GTDB for use with sourmash.
         "Number of reads mapped to chm13 (and depleted)": "87",
         "Number of reads mapped to lambda phage (and depleted)": "779"
     },
-    etc
+    "barcode02:": {...
 }
 ```
 
