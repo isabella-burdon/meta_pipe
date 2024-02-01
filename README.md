@@ -13,6 +13,8 @@ Meta pipe is an easy to use pipeline to quality check long read metagenomic data
 - Compatible with MacOS (will run on your laptop 👩🏽‍💻)
 - Requires mamba package manager (see mamba installation below)
 
+Please reach out with any issues via github or email.
+
 ### To install meta pipe:
 ```bash
 git clone https://github.com/isabella-burdon/meta_pipe.git
@@ -65,7 +67,7 @@ meta_pipe (root)
     │   └── ...
     └── ...
 ```
-Please reach out with any issues via github or email.
+
 
 ## What is meta pipe doing?
 
