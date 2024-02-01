@@ -91,7 +91,7 @@ Meta pipe sets up GTDB for use with sourmash.
 
    Path to read metrics json or txt file:
 ```bash
-b_readMetrics/summary_metrics.jsn
+b_readMetrics/summary_metrics.json
 ```
 ```bash
 b_readMetrics/summary_compile.txt
