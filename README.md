@@ -14,6 +14,7 @@ Meta pipe is an easy to use pipeline to quality check long read metagenomic data
 - Requires mamba package manager (see mamba installation below)
 
 Please reach out with any issues via github or email.
+isabella.burdon@adelaide.edu.au
 
 ### To install meta pipe:
 ```bash
