@@ -14,8 +14,6 @@ https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_009914755.1/
 ```
 Please unzip and store the reference genome as 'chm13.fasta' in the b_contaminants folder.
 
-   This can be dowloaded from ncbi at
-
 2. Navigate to the meta_pipe directory
 3. Run:
 ```bash
