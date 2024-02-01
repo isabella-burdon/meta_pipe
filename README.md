@@ -55,6 +55,7 @@ meta_pipe (root)
     │   └── ...
     └── ...
 ```
+Please reach out with any issues via github or email.
 
 ## What is meta pipe doing?
 1. Concatenates raw fastq.gz files
@@ -75,7 +76,7 @@ wget https://github.com/conda-forge/miniforge?tab=readme-ov-file](https://github
 ```bash
 bash Mambaforge-MacOSX-x86_64.sh
 ```
-3. Enter through and accept the license
+3. Enter through and accept the licence
 4. Say yes to running conda init to initialise miniconda
 5. Run the following:
 ```bash
