@@ -69,9 +69,11 @@ Please reach out with any issues via github or email.
 
 ## What is meta pipe doing?
 
-Meta pipe handles the setup of all necessary environments and activates / deactivates environments as needed
-Meta pipe installs all necessary software, databases and reference genomes (except human reference genome which needs to be manually installed as above)
-Meta pipe sets up GTDB for use with sourmash
+Meta pipe handles the setup of all necessary environments and activates / deactivates environments as needed.
+
+Meta pipe installs all necessary software, databases and reference genomes (except human reference genome which needs to be manually installed as above).
+
+Meta pipe sets up GTDB for use with sourmash.
 
 ### Prefilter steps
 1. Concatenates raw fastq.gz files
