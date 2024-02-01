@@ -3,9 +3,10 @@ Pipeline to QC and filter long read metagenomic data and generate taxonomic prof
 Compatible with MacOS
 Requires mamba package manager 
 
-### To install
+### To install meta pipe:
+```bash
 git clone https://github.com/isabella-burdon/meta_pipe.git
-
+```
 ### To set up meta pipe:
 1. navigate to the meta_pipe directory
 2. run:
