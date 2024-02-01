@@ -11,7 +11,7 @@ git clone https://github.com/isabella-burdon/meta_pipe.git
 2. run:
 ```bash
 ./setup.sh
-
+```
 This will download necessary dependancies / software / GTDB (time consuming).
 
 ### To run:
