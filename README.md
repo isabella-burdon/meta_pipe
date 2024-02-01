@@ -87,7 +87,18 @@ Meta pipe sets up GTDB for use with sourmash.
 
    Example:
 
-   <img width="581" alt="Screenshot 2024-02-02 at 8 58 21 am" src="https://github.com/isabella-burdon/meta_pipe/assets/133566275/15c40867-9636-4dbd-a7d9-2ee8e5eb25c7">
+```json
+{
+    "barcode01:": {
+        "Significant reads (not host or lambda)": "83472",
+        "Total reads inc host (no lambda)": "83559",
+        "Proportion of reads mapped to chm13": "0.1%",
+        "Number of reads mapped to chm13 (and depleted)": "87",
+        "Number of reads mapped to lambda phage (and depleted)": "779"
+    },
+    ...
+}
+```
 
    Path to read metrics json or txt file:
 ```bash
@@ -111,7 +122,9 @@ b_readMetrics/summary_compile.txt
 
 Git: https://github.com/lh3/minimap2
 
-Paper: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6137996/
+Paper: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6137996
+        
+        /
 
 #### NanoQC
 * Tool to evaluate the average quality of the first 100 (head) and last 100 (tail) of reads in a sample
