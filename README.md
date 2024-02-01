@@ -44,7 +44,7 @@ This will download necessary dependancies / software / GTDB (time consuming).
 ```
 5. Wait for RESULTS! 
 
-🌱_Schematic diagram of folders for input_
+_🌱 Schematic diagram of folders for input_
 ```diagram
 meta_pipe (root)
 └── a_rawReads
