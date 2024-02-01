@@ -34,23 +34,24 @@ This will download necessary dependancies / software / GTDB (time consuming).
 ```
 Schematic diagram of folders for input
 ```diagram
--meta_pipe (root)
----a_rawReads
-   ---barcode01
-      ---file1_pass.fastq.gz
-      ---file2_pass.fastq.gz
-      ---file3_pass.fastq.gz
-      ... etc
-   ---barcode02
-      ---file1_pass.fastq.gz
-      ---file2_pass.fastq.gz
-      ---file3_pass.fastq.gz
-      ... etc
-   ---barcode03
-      ---file1_pass.fastq.gz
-      ---file2_pass.fastq.gz
-      ---file3_pass.fastq.gz
-      ... etc
+meta_pipe (root)
+└── a_rawReads
+    ├── barcode01
+    │   ├── file1_pass.fastq.gz
+    │   ├── file2_pass.fastq.gz
+    │   ├── file3_pass.fastq.gz
+    │   └── ...
+    ├── barcode02
+    │   ├── file1_pass.fastq.gz
+    │   ├── file2_pass.fastq.gz
+    │   ├── file3_pass.fastq.gz
+    │   └── ...
+    ├── barcode03
+    │   ├── file1_pass.fastq.gz
+    │   ├── file2_pass.fastq.gz
+    │   ├── file3_pass.fastq.gz
+    │   └── ...
+    └── ...
 ```
 
 ## What is meta pipe doing?
