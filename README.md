@@ -176,13 +176,10 @@ Paper: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9749362/
 ## Mamba installation
 (for mac users)
 1. Open a new terminal window
-3. Run the following in terminal to download miniforge:
+3. Run the following in terminal to download miniforge and run the installer bash file::
 ```bash
-wget https://github.com/conda-forge/miniforge?tab=readme-ov-file](https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-MacOSX-x86_64.sh)https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-MacOSX-x86_64.sh
-```
-2. Run the installer bash file:
-```bash
-bash Mambaforge-MacOSX-x86_64.sh
+curl -LO https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-MacOSX-arm64.sh
+bash Miniforge3-MacOSX-arm64.sh
 ```
 3. Enter through and accept the licence
 4. Say yes to running conda init to initialise miniconda
